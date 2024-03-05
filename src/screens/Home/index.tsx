@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Text, SafeAreaView, StatusBar, TextInput, View, TouchableOpacity, ScrollView, FlatList, Alert } from 'react-native';
+import { Text, TextInput, View, TouchableOpacity, FlatList, Alert } from 'react-native';
 import { Participant } from '../../components/Participant';
 import { styles } from './styles'
 
@@ -27,9 +27,7 @@ export function Home() {
         text: "Não",
         style: 'cancel'
       }
-
     ])
-    
   }
 
   return(
@@ -38,7 +36,7 @@ export function Home() {
         Nome do Evento
       </Text>
       <Text style={styles.bodyText}>
-        hello react native, lets make some milions
+        Terça, 04 de março de 2024
       </Text>
       <View style={styles.form}>
         <TextInput 
