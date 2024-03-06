@@ -1,5 +1,7 @@
 # Aplicação de listagem de participantes de um evento
 
-Projeto prático para estudos de React Native
+Projeto criado com expo para estudos de React Native
 
 ---
+
+![](assets/screens.gif)
